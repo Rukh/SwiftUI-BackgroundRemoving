@@ -7,19 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A80AA5329CC8C2D00B8899B /* TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A80AA5229CC8C2D00B8899B /* TestApp.swift */; };
+		0A80AA5329CC8C2D00B8899B /* BackgroundRemovingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A80AA5229CC8C2D00B8899B /* BackgroundRemovingApp.swift */; };
 		0A80AA5529CC8C2D00B8899B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A80AA5429CC8C2D00B8899B /* ContentView.swift */; };
 		0A80AA5729CC8C2F00B8899B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A80AA5629CC8C2F00B8899B /* Assets.xcassets */; };
-		0A80AA5A29CC8C2F00B8899B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A80AA5929CC8C2F00B8899B /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A80AA4F29CC8C2D00B8899B /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A80AA5229CC8C2D00B8899B /* TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp.swift; sourceTree = "<group>"; };
+		0A80AA4F29CC8C2D00B8899B /* BackgroundRemoving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackgroundRemoving.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A80AA5229CC8C2D00B8899B /* BackgroundRemovingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRemovingApp.swift; sourceTree = "<group>"; };
 		0A80AA5429CC8C2D00B8899B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0A80AA5629CC8C2F00B8899B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0A80AA5929CC8C2F00B8899B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0A80AA5B29CC8C2F00B8899B /* Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Test.entitlements; sourceTree = "<group>"; };
+		0A80AA5B29CC8C2F00B8899B /* BackgroundRemoving.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BackgroundRemoving.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +34,7 @@
 		0A80AA4629CC8C2D00B8899B = {
 			isa = PBXGroup;
 			children = (
-				0A80AA5129CC8C2D00B8899B /* Test */,
+				0A80AA5129CC8C2D00B8899B /* BackgroundRemoving */,
 				0A80AA5029CC8C2D00B8899B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,37 +42,28 @@
 		0A80AA5029CC8C2D00B8899B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0A80AA4F29CC8C2D00B8899B /* Test.app */,
+				0A80AA4F29CC8C2D00B8899B /* BackgroundRemoving.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0A80AA5129CC8C2D00B8899B /* Test */ = {
+		0A80AA5129CC8C2D00B8899B /* BackgroundRemoving */ = {
 			isa = PBXGroup;
 			children = (
-				0A80AA5229CC8C2D00B8899B /* TestApp.swift */,
+				0A80AA5229CC8C2D00B8899B /* BackgroundRemovingApp.swift */,
 				0A80AA5429CC8C2D00B8899B /* ContentView.swift */,
 				0A80AA5629CC8C2F00B8899B /* Assets.xcassets */,
-				0A80AA5B29CC8C2F00B8899B /* Test.entitlements */,
-				0A80AA5829CC8C2F00B8899B /* Preview Content */,
+				0A80AA5B29CC8C2F00B8899B /* BackgroundRemoving.entitlements */,
 			);
-			path = Test;
-			sourceTree = "<group>";
-		};
-		0A80AA5829CC8C2F00B8899B /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				0A80AA5929CC8C2F00B8899B /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			path = BackgroundRemoving;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0A80AA4E29CC8C2D00B8899B /* Test */ = {
+		0A80AA4E29CC8C2D00B8899B /* BackgroundRemoving */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A80AA5E29CC8C2F00B8899B /* Build configuration list for PBXNativeTarget "Test" */;
+			buildConfigurationList = 0A80AA5E29CC8C2F00B8899B /* Build configuration list for PBXNativeTarget "BackgroundRemoving" */;
 			buildPhases = (
 				0A80AA4B29CC8C2D00B8899B /* Sources */,
 				0A80AA4C29CC8C2D00B8899B /* Frameworks */,
@@ -84,9 +73,9 @@
 			);
 			dependencies = (
 			);
-			name = Test;
+			name = BackgroundRemoving;
 			productName = Test;
-			productReference = 0A80AA4F29CC8C2D00B8899B /* Test.app */;
+			productReference = 0A80AA4F29CC8C2D00B8899B /* BackgroundRemoving.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +93,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0A80AA4A29CC8C2D00B8899B /* Build configuration list for PBXProject "Test" */;
+			buildConfigurationList = 0A80AA4A29CC8C2D00B8899B /* Build configuration list for PBXProject "BackgroundRemoving" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +106,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0A80AA4E29CC8C2D00B8899B /* Test */,
+				0A80AA4E29CC8C2D00B8899B /* BackgroundRemoving */,
 			);
 		};
 /* End PBXProject section */
@@ -127,7 +116,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A80AA5A29CC8C2F00B8899B /* Preview Assets.xcassets in Resources */,
 				0A80AA5729CC8C2F00B8899B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A80AA5529CC8C2D00B8899B /* ContentView.swift in Sources */,
-				0A80AA5329CC8C2D00B8899B /* TestApp.swift in Sources */,
+				0A80AA5329CC8C2D00B8899B /* BackgroundRemovingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +185,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -251,6 +240,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -265,23 +255,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Test/Test.entitlements;
+				CODE_SIGN_ENTITLEMENTS = BackgroundRemoving/BackgroundRemoving.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Test/Preview Content\"";
 				DEVELOPMENT_TEAM = A386SBTVF6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = gd.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = gd.BackgroundRemoving;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
@@ -297,23 +285,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Test/Test.entitlements;
+				CODE_SIGN_ENTITLEMENTS = BackgroundRemoving/BackgroundRemoving.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Test/Preview Content\"";
 				DEVELOPMENT_TEAM = A386SBTVF6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = gd.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = gd.BackgroundRemoving;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
@@ -327,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A80AA4A29CC8C2D00B8899B /* Build configuration list for PBXProject "Test" */ = {
+		0A80AA4A29CC8C2D00B8899B /* Build configuration list for PBXProject "BackgroundRemoving" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A80AA5C29CC8C2F00B8899B /* Debug */,
@@ -336,7 +322,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A80AA5E29CC8C2F00B8899B /* Build configuration list for PBXNativeTarget "Test" */ = {
+		0A80AA5E29CC8C2F00B8899B /* Build configuration list for PBXNativeTarget "BackgroundRemoving" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A80AA5F29CC8C2F00B8899B /* Debug */,

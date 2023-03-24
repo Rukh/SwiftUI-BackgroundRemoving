@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Test
+//  BackgroundRemoving
 //
 //  Created by Dmitry Gulyagin on 23/03/2023.
 //
@@ -9,16 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var treshhold: Double = 0.05
+    @State var treshhold: Double = 0.02
     let range = 0 ... 0.2
     
     var body: some View {
         VStack {
-            VStack {
-                image
-                mask
-                image.mask(mask)
-            }
+            images
             .padding()
             .background(Color.green.opacity(0.5))
             Slider(value: $treshhold, in: range) {
@@ -36,7 +32,21 @@ struct ContentView: View {
     }
     
     @ViewBuilder
-    private var image: some View {
+    private var images: some View {
+        let chevron = Image(systemName: "chevron.right")
+            .font(.largeTitle.bold())
+            .foregroundColor(.blue)
+        HStack {
+            originalImage
+            chevron
+            mask
+            chevron
+            originalImage.mask(mask)
+        }
+    }
+    
+    @ViewBuilder
+    private var originalImage: some View {
         Image("test")
             .resizable()
             .scaledToFit()
@@ -46,7 +56,7 @@ struct ContentView: View {
     private var mask: some View {
         ZStack {
             Color(white: 1 - treshhold)
-            image
+            originalImage
                 .saturation(0)
                 .blendMode(.darken)
                 .layoutPriority(1)

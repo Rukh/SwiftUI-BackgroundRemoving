@@ -1,6 +1,6 @@
 //
-//  TestApp.swift
-//  Test
+//  BackgroundRemovingApp.swift
+//  BackgroundRemoving
 //
 //  Created by Dmitry Gulyagin on 23/03/2023.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct TestApp: App {
+struct BackgroundRemovingApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
